@@ -1,0 +1,29 @@
+{
+  "hfov_deg": 100.0,
+  "vfov_deg": 90.0,
+  "pattern_size": 2860,
+  "texels_per_tan": 1199.9124725835104,
+  "dot_sigma_texels": 2.186768126593059,
+  "left": {
+    "lattice": [
+      32.4,
+      6.6,
+      119.0,
+      6.5
+    ],
+    "dots": 42036,
+    "file": "NetraVis6L_USB_dots_left.png"
+  },
+  "right": {
+    "lattice": [
+      42.2,
+      6.6,
+      128.6,
+      6.5
+    ],
+    "dots": 42023,
+    "file": "NetraVis6L_USB_dots_right.png"
+  },
+  "direction_exr": "NetraVis6L_USB_projector_direction_100x90.exr",
+  "measured_in": "rectified IR 1080x720, fx 559.2"
+}

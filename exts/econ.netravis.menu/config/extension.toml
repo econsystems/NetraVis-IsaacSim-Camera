@@ -1,0 +1,14 @@
+[package]
+version = "0.1.0"
+title = "e-con NetraVis6L_USB — Stereo Camera Asset"
+description = "Adds the e-con NetraVis6L_USB stereo camera twin (active stereo: IR stereo pair, RGB, dot projector, IMU) to Create > Sensors > Camera and Depth Sensors > e-con. The twin ships a ROS 2 variant with isaac:namespace namespacing, a pattern projector and a pseudo-depth template."
+category = "Simulation"
+keywords = ["e-con", "NetraVis6L_USB", "stereo", "active stereo", "depth", "camera", "sensor", "ROS2"]
+authors = ["e-con Systems"]
+
+[dependencies]
+"omni.kit.menu.utils" = {}
+"omni.usd" = {}
+
+[[python.module]]
+name = "econ.netravis.menu"
