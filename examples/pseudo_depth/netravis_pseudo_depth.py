@@ -1,7 +1,7 @@
 """Pseudo depth for NetraVis6L_USB cameras — live view (Isaac Sim Script Editor).
 
 Isaac Sim's single-view depth sensor, set up from the template each NetraVis6L_USB carries
-(`econ_PseudoDepth_ir`): a generic stereo depth approximation with this camera's geometry,
+(`econ_PseudoDepth_ir`): NVIDIA's single-view stereo depth model with this camera's geometry,
 1 m to 6 m. It is not NetraVis6L_USB's own depth output (see the main README).
 
 Run it in Window -> Script Editor with one or more NetraVis6L_USB cameras in the stage
@@ -11,8 +11,8 @@ and opens a window per camera:
     image   pseudo depth, near = red -> far = blue, black = no depth
     text    share of pixels with depth, nearest distance, distance at the image centre
 
-Turn the IR dot projector on (eye icon on Emitter_Left / Emitter_Right) for texture-poor
-scenes: pseudo depth needs texture.
+Turn the IR dot projector on for texture-poor scenes (set Intensity to 1.0 on Emitter_Left and
+Emitter_Right): its dots add the texture pseudo depth matches on.
 
 In your own code, after running this file in the same Script Editor tab:
 

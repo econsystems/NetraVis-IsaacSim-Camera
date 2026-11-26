@@ -5,6 +5,11 @@ description = "Adds the e-con NetraVis6L_USB stereo camera twin (active stereo: 
 category = "Simulation"
 keywords = ["e-con", "NetraVis6L_USB", "stereo", "active stereo", "depth", "camera", "sensor", "ROS2"]
 authors = ["e-con Systems"]
+repository = "https://github.com/econsystems/NetraVis-IsaacSim-Camera"
+icon = "data/icon.png"
+preview_image = "data/preview.png"
+readme = "docs/README.md"
+changelog = "docs/CHANGELOG.md"
 
 [dependencies]
 "omni.kit.menu.utils" = {}

@@ -135,9 +135,10 @@ The camera projects an IR dot pattern that gives the stereo pair texture to matc
 two emitters, `Emitter_Left` and `Emitter_Right`, which together cover the field of view of
 both IR cameras.
 
-- **Switch it on:** in the Stage panel, click the eye icon on `Emitter_Left` and `Emitter_Right`
-  (under `Stereo_Camera/Modules/Projector/IREmitter`). It ships **off**. The
-  [e-con camera control extension](#e-con-camera-control-extension) has a single checkbox for it.
+- **Switch it on:** select `Emitter_Left` and `Emitter_Right` (under
+  `Stereo_Camera/Modules/Projector/IREmitter`) and set **Intensity** to **1.0**. It ships **off**
+  (intensity 0). The [e-con camera control extension](#e-con-camera-control-extension) has a single
+  checkbox for it.
 - **Brightness:** `inputs:intensity` on each emitter (default 1.0).
 - **Scene lighting:** Isaac Sim has no infrared, so every scene light also reaches the IR
   cameras. Bright lights (e.g. a dome light) wash the dots out at a distance; keep scene
